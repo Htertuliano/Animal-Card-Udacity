@@ -1,0 +1,87 @@
+body {
+	word-wrap: break-word;
+	width: 300px;
+	height: 200px;	
+	
+	}
+
+.animal-card {
+	border-style: solid;
+	border-color: black;
+	border-width: 4.5px;
+	border-radius: 3px;
+	background: linear-gradient(to bottom left, #FD746C , white);	
+	height: 700px;
+	}
+
+@font-face {
+	font-family: "Gloss and Bloom";
+	src: local('Gloss and Bloom');
+	}
+
+h3 {
+	color:white;
+	font-variant: small-caps;
+	font-family: "Gloss and Bloom", Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	}
+
+#photo {   
+	width: 300px;
+	text-align: center;
+	transform: skew(10deg);	
+	}	
+	
+@font-face {
+	font-family: "Din Light";
+	src: local(Din Light);
+	}
+	
+.infobox {
+	border-style: double;
+	border-width: 7px;
+	border-color: teal;
+	background-color: #F7D0C0;
+	background-clip:padding-box;
+	box-shadow: 1px 1px 10px 0px teal;
+	color: black;
+	font-family: "Din Light", Helvetical, sans-serif;
+	font-size: 9pt;
+	height: 350px;
+	padding: 20px;
+	text-align: left;
+	transition-property: background-color;
+	transition-property: color;
+	transition-property: border-color;
+	transition-property: box-shadow;
+	transition-duration: 3s;
+	margin: 0px 7px 30px 5px;	
+	}
+
+.infobox:hover {
+	background-color: teal;
+	border-color: #F7D0C0;
+	color: white;
+	box-shadow: 1px 1px 10px 0px white;
+	}
+
+.interesting-fact {
+	font-style: italic;
+	}
+
+a:link { color: white;	}
+	
+
+a:hover {
+	cursor: help;
+	}
+
+.list > li > span {
+	font-weight: bold;
+	}
+
+ol {
+	list-style-type: triangle;
+	list-style-position: inline;
+	}
